@@ -1852,3 +1852,14 @@ $baseurl: '{{ site.baseurl }}/images';
 .hide {
   display: none;
 }
+
+.people-bio {
+    display: none;
+}
+
+.people-bio-button {
+    cursor: pointer;
+}
+.people-bio-button:hover {
+    color: #000;
+}
