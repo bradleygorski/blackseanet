@@ -1795,7 +1795,9 @@ $baseurl: '{{ site.baseurl }}/images';
 			@include padding(3em, 2em);
 		}
 	}
-
+.override {
+    text-transform: none !important;
+}
 /* Landing */
 
 	body.landing {
