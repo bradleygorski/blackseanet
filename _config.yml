@@ -3,11 +3,7 @@
 
 # Site settings
 title: Black Sea Networks
-description: |
-  A collaborative initiative 
-  to investigate the Black Sea <br /> 
-  as a hub of cultural, political,
-  and historical interest.
+description: A collaborative initiative to investigate the Black Sea as a hub of cultural, political, and historical interest.
 owner: Columbia University Slavic Department
 first_published: 2016 # if migrating another site, the year of your first publish
 email: vbi1@columbia.edu
