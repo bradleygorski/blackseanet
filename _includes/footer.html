@@ -6,12 +6,13 @@
   <ul class="copyright">
     <li>&copy; {% assign thisyear = site.time | date: "%Y" %}
     {% if site.first_published %}
-      {% capture diff %}{{ site.first_published | minus:thisyear }}{% endcapture %}
+      {% capture diff %}{{ thisyear }}{% endcapture %}
       {% if diff contains '-' %}{{ site.first_published }},{% endif %}
     {% endif %}
     {{ thisyear }}
     {% if site.owner %}{{ site.owner }}{% else %}{{ site.title }}{% endif %}</li>
-    <p class='override'>Designed and created by Bradley Gorski
-    <br> Text by Sophie Pinkham and Valentina Izmirlieva</p>
+    <p class='override'>Principle Investigator: Valentina Izmirlieva
+    <br>Web design: Bradley Gorski
+    <br>Text: Sophie Pinkham and Valentina Izmirlieva</p>
   </ul>
 </footer>
